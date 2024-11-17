@@ -1,5 +1,6 @@
 from person_app.enums import AccountType
 from person_app.models import Person, Address
+from restaurant_app.models import RoomBooking
 
 if __name__ == '__main__':
     p = Person("Tony",
@@ -8,5 +9,9 @@ if __name__ == '__main__':
                "user@gmail.com",
                "+998931234567",
                AccountType.MEMBER)
+
+
+
+
 
     print(p)
