@@ -2,7 +2,8 @@ import random
 
 
 class Room:
-    def __init__(self, style, status, booking_price, is_smoking, room_key):
+    def __init__(self,room_id, style, status, booking_price, is_smoking, room_key):
+        self.room_id = room_id
         self.__style = style
         self.__status = status
         self.__booking_price = booking_price
